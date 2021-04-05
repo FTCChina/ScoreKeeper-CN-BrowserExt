@@ -1,2 +1,2 @@
 # ScoreKeeper-CN-BrowserExt
- Browser Extension for ScoreKeeper
+ Browser Extension for FTC Chinese Translation ScoreKeeper
