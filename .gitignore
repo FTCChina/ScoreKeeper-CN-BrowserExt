@@ -1,2 +1,4 @@
 web-ext-artifacts/
 chrome-ext-artifacts/
+.chrome-ext-artifacts/
+.web-ext-artifacts/

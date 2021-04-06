@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "FTC ScoreKeeper 汉化",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "2021赛季FTC裁判系统汉化 - ROBOZONE萝卜造工作室 AND 量子饼干",
 	"icons":
 	{
@@ -22,10 +22,10 @@
 	"content_scripts": 
 	[
 		{
-			"matches": ["http://localhost/*","http://127.0.0.1/*","http://match-control.ftcchina.github.io/*","http://此处填写赛事面板IP地址/*"],
+			"matches": ["http://localhost/*","http://127.0.0.1/*","http://[::1]/*","http://match-control.ftcchina.github.io/*","http://match-control/*","http://match-control.ftcchina.org/*","http://此处填写赛事面板IP地址/*"],
 			"js": ["src/jquery-3.5.1.min.js","src/dictionary.js","src/cn.js"],
 			"run_at": "document_idle",
-			"all_frames": true	
+			"all_frames": true
 		}
 	],
 	"homepage_url": "https://www.robozone.com.cn"
