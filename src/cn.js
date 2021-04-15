@@ -32,6 +32,10 @@ function changeElements() {
 		if(dictionary[""+str]) x[i].innerHTML=dictionary[""+str];
 	}*/
 
+	//Change Behavior Of Match-Control Page
+	//localhost/event/xxx/control/
+	if(tmp = $(".scheduleItem.scheduleHeader")) tmp.css("overflow","hidden")
+
 	if(tmp=document.getElementById("Login")) tmp.value="登录";
 	if(tmp=document.getElementById('passwordInput')) tmp.setAttribute("placeholder","请输入密码");
 	if(tmp=document.getElementById("usernameInput")) tmp.setAttribute("placeholder","请输入用户名");
